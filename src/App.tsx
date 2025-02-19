@@ -10,7 +10,7 @@ import {
 function downloadAPK() {
   try {
     const link = document.createElement("a");
-    link.href = "/Pic2Ans.apk";
+    link.href = "https://github.com/dawasherpa-ui/Pic2Ans-web/raw/refs/heads/main/public/Pic2Ans.apk?download=";
     link.download = "Pic2Ans.apk";
     link.setAttribute("download", "");
     document.body.appendChild(link);
